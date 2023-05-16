@@ -4,11 +4,13 @@ body{
     margin: 0 auto;
     background-color: #89c2d9;
     color: #333333;
+    transition: 0.4s ease-in-out;
 }
 
 body.modo-escuro{
-    background-color: #212121;
+    background-color: #1b263b;
     color: #f5f5f5;
+    transition: 0.4s ease-in-out;
 }
 
 header{
@@ -18,12 +20,12 @@ header{
 }
 header .logo{
     width: 90px;
-    transition: 0.2s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 header .imagem-botao{
     width: 30px;
-    transition: 0.2s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 header #botao-alterar-tema{
@@ -64,16 +66,18 @@ main .cartao-pokemon{
     align-items: center;
     gap:1px;
     border-radius: 15px;
-    transition: 0.2s ease-in-out;
+    transition: 0.4s ease-in-out;
     transform: scale(1.05);
 }
 
 .cartao-pokemon:hover{
 background-color: #96d9d6;
 }
-
+.modo-escuro .cartao-pokemon:hover{
+    background-color: #415a77;
+}
 .modo-escuro .cartao-pokemon{
-    background-color: #a8a8a8;
+    background-color: #293241;
 }
 
 main .cartao-pokemon .informacoes{
@@ -135,6 +139,25 @@ main .cartao-pokemon .tipo{
 
 .inseto{
     background-color: #a6b91a;
+}
+.lutador{ 
+    background-color: #C22E28;
+}
+.voador{ 
+    background-color: #A98FF3;
+}
+.psiquico{
+   background-color :#F95587;
+} .fantasma {
+    background-color: #735797;
+}
+
+.dragao{
+    background-color: #6f35fc;
+}
+
+.dark{
+    background-color: #7057;
 }
 
 main .descricao{
